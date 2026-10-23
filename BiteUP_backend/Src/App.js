@@ -9,7 +9,7 @@ const cors = require("cors");
 App.use(express.json());
 App.use(Cookieparser());
 App.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://bite-up-eight.vercel.app",
     credentials: true
 }));
 
